@@ -2,9 +2,6 @@ import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
 
-console.log(fileURLToPath(import.meta.url));
-console.log(import.meta.url);
-
 type Task = {
     id: number;
     description: string;
